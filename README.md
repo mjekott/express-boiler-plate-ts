@@ -5,4 +5,4 @@ an express typescript quick boiler plate
 ### developement
 ``` npm run dev ```
 ### testing
-``` npm run test:watch````
+``` npm run test:watch```
