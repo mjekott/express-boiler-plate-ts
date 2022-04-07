@@ -1,6 +1,5 @@
 import { Router } from 'express';
 
-
 export default abstract class Controller {
 
     abstract path: string;
@@ -9,7 +8,6 @@ export default abstract class Controller {
         this.autobind()
 
     }
-
     autobind() {
         const instance: any = this
         const methods = Object.getOwnPropertyNames(Object.getPrototypeOf(this));

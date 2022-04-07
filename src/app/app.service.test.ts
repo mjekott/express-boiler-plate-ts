@@ -1,6 +1,6 @@
 import * as request from 'supertest';
-import App from '../../app';
-import AppService from '../app.service';
+import App from '../app';
+import AppService from './app.service';
 
 
 

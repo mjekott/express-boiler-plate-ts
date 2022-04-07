@@ -8,19 +8,14 @@ class AppController extends Controller {
     public router = express.Router()
     public readonly appService = new AppService();
 
-
-
     constructor() {
         super()
         this.initializeRoutes()
-
     }
 
     public initializeRoutes() {
         this.router.get(`${this.path}`, this.checkHealth)
     }
-
-
 
 
     checkHealth(request: express.Request, response: express.Response) {

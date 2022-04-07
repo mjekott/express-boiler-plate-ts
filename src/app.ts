@@ -25,7 +25,7 @@ export default class App {
         });
     }
 
-    public getServer() {
+    public getHttpServer() {
         return this.app;
     }
 
